@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  height: 200vh;
+  background: url("https://cdn.pixabay.com/photo/2022/05/31/00/56/sky-7232494_960_720.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+}
+header .navbar {
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.navbar .links {
+  display: flex;
+  gap: 40px;
+}
+
+.navbar a {
+  color: black;
+  text-decoration: none;
+  transition: 0.2s ease;
+  text-shadow: 1px 1px 1px rosybrown;
+}
+
+.navbar a:hover {
+  color: rosybrown;
+  text-decoration: none;
+}
+
+.hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 0 30px;
+}
+
+.hero .content {
+  color: black;
+}
+
+.hero .content h1 {
+  font-size: 2rem;
+  max-width: 600px;
+  text-shadow: 3px 3px 1px rosybrown;
+}
+
+.hero .content p {
+  font-weight: 200;
+  margin-top: 15px;
+  max-width: 600px;
+  text-shadow: 1px 1px 1px rosybrown;
+}
+
+.hero .content img {
+  display: block;
+  position: absolute;
+  max-width: 400px;
+  border-radius: 50%;
+  margin-left: 1100px;
+  align-items: center;
+  box-shadow: 4px 4px 5px rosybrown;
+}
+
+.image-gallery {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.image-container {
+  width: 30%;
+  height: 250px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-container img {
+  width: 100%;
+  height: 100%;
+  margin: 10px;
+}
+.two-columns .image-container {
+  width: 45%;
+  margin: 10px;
+}
+.full-width .image-container {
+  width: 100%;
+  margin: 20px;
+}
+
+.socials {
+  display: flex;
+  gap: 100px;
+  text-align: center;
+  justify-content: space-between;
+  margin-left: 800px;
+}
+.ig {
+  font-weight: 600;
+  text-decoration: none;
+  color: black;
+  text-shadow: 2px 2px 1px rosybrown;
+}
+.ig:hover {
+  color: rosybrown;
+  transition: 0.2s ease;
+}
